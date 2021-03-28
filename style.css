@@ -1,0 +1,33 @@
+body {
+  padding: 100px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.form-wrapper {
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#transction {
+  display: none;
+}
+.status {
+  color: #fff;
+  padding: 20px;
+  margin: 0 30px;
+  border-radius: 5px;
+}
+.deposit {
+  background: slateblue;
+}
+.withdraw {
+  background: lightsalmon;
+}
+.balance {
+  background: orange;
+}
+.input-wrapper {
+  margin-top: 60px;
+}
